@@ -454,3 +454,53 @@ form button:hover {
     justify-items: center;
 }
 
+.about-item {
+    background: white;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.about-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.about-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+.about-item p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0 10px 15px;
+}
+
+#contact {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+#contact h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+#contact p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
