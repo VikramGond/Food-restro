@@ -498,8 +498,12 @@ footer a:hover {
 
 
 @media (max-width: 480px) {
+    #logo img {
+        width: 80px;
+    }
+
     #logo h4 {
-        font-size: 1.5em;
+        font-size: 0.8em;
     }
 
     nav ul li {
@@ -525,3 +529,49 @@ footer a:hover {
         padding: 10px;
     }
 }
+
+@media (max-width: 360px) {
+    #logo img {
+        width: 80px;
+    }
+
+    #logo h4 {
+        font-size: 0.8em;
+    }
+
+    nav {
+        font-size: 1em;
+    }
+
+    #quote {
+        width: 100%;
+        transform: translate(0, 120%);
+        padding: 20px;
+    }
+
+    #quote h1 {
+        font-size: 2em;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .about-item,
+    .contact-item {
+        width: 100%;
+    }
+}
+
+.burger.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}   
+
+.burger.toggle .line2 {
+    opacity: 0;
+}
+
+.burger.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
