@@ -17,7 +17,13 @@
         <h4>Spoon & Frock</h4>
       </div>
 
-      <ul>
+       <div class="burger" id="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+
+      <ul id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#order">Order</a></li>
@@ -138,6 +144,7 @@
       </select>
       <input type="number" placeholder="Quantity" required>
       <button type="submit" class="btn">Place Order</button>
+    </form>
 
   </section>
 
@@ -168,17 +175,16 @@
     </div>
   </section>
 
-  <section id="contact" class="contact">
-
+  <section id="contact">
     <h1>Contact Us</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
 
-    <form action="" class="contact-form">
+    <form action="">
 
-      <input type="text" placeholder="Full Name" required><br><br>
-      <input type="email" placeholder="Email" required><br><br>
-      <input type="text" placeholder="Phone Number" required><br><br>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+      <input type="text" placeholder="Full Name" required><br>
+      <input type="email" placeholder="Email" required><br>
+      <input type="text" placeholder="Phone Number" required><br>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
       <button type="submit" class="btn">Send Message</button>
 
     </form>
@@ -186,11 +192,23 @@
   </section>
 
   <footer>
-    <p>&copy; 2024 Spoon & Frock. All rights reserved.</p>
-    <a href="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
-    <a href="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
-    <a href="twitter"><ion-icon name="logo-twitter"></ion-icon></a>  
+    <div class="footer-content">
+      <h2>Spoon & Frock</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+      <div class="social-icons">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2023 Spoon & Frock. All rights reserved.</p>
+    </div>
   </footer>
+  <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js"></script>
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
